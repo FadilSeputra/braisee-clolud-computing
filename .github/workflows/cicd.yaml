@@ -65,7 +65,7 @@ jobs:
           export_default_credentials: true
 
       # 7. Deploy to Cloud Run
-      - name: Deploy to Cloud Run
+      - name: Deploy to Cloud Run 1
         run: |
           gcloud run deploy ${{ secrets.SERVICE }} \
               --image=gcr.io/${{ secrets.PROJECT_ID }}/${{ secrets.IMAGE_NAME }}:${{ secrets.TAG_LATEST }} \
