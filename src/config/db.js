@@ -10,6 +10,9 @@ const DB_HOST = process.env.DB_HOST;
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
     host: DB_HOST,
     dialect: 'mysql',
+    dialectoptions: {
+        socketpath: "belajar-mlgc:asia-southeast2:braisee",
+      },
 });
 
 export default sequelize;

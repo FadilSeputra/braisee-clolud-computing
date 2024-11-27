@@ -15,7 +15,7 @@ sequelize.sync({ alter: true }).then(() => {
     console.log('Database & tables updated!');
 });
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
     res.send('Welcome to the API!');
 });
 
