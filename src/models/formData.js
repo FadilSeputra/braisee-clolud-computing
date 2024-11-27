@@ -21,7 +21,7 @@ const braisee = sequelize.define('brasiee', {
         defaultValue: DataTypes.NOW
     }
 },{
-    tableName: 'brasiees',
+    tableName: 'brasiee',
     timestamps: true,   // Aktifkan timestamps
     updatedAt: false    // Nonaktifkan kolom updatedAt
 });
