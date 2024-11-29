@@ -11,7 +11,7 @@ const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
     host: DB_HOST,
     dialect: 'mysql',
     dialectoptions: {
-        socketpath: "belajar-mlgc:asia-southeast2:braisee",
+        socketpath: "mysql://root:DB_PASSWORD@34.101.48.174:3306/braisee",
       },
 });
 
